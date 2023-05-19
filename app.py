@@ -14,6 +14,11 @@ driver.get("https://medium.com/")
 
 time.sleep(5)
 
+
+#search_elem = driver.find_element(By.CSS_SELECTOR, '#goog-gt-tt')
+#ActionChains(driver).click(search_elem).perform()
+#time.sleep(5)
+
 #nav_elem = driver.find_element(By.CSS_SELECTOR, '#scroller-items > div.fg.iw.bx.ir.s > a > p > span > button > font > font')
 #ActionChains(driver).click(nav_elem).perform()
 #time.sleep(5)
