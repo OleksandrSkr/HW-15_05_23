@@ -14,7 +14,6 @@ driver.get("https://medium.com/")
 
 time.sleep(5)
 
-
 #search_elem = driver.find_element(By.CSS_SELECTOR, '#goog-gt-tt')
 #ActionChains(driver).click(search_elem).perform()
 #time.sleep(5)
@@ -23,7 +22,7 @@ time.sleep(5)
 #ActionChains(driver).click(nav_elem).perform()
 #time.sleep(5)
 
-article = driver.find_element(By.CSS_SELECTOR, '#root > div > div.n.dc > div.ej.ah.ia.ib.ic > div.n.p > div > div > section > div > div > div.kg.kh.ah > div:nth-child(3) > div > div > div > a > h2')
+article = driver.find_element(By.CSS_SELECTOR, '#root > div > div.n.dc > div.ej.ah.ia.ib.ic > div.n.p > div > div > section > div > div > div.kh.ki.ah > div:nth-child(3) > div > div > div > a > h2')
 ActionChains(driver).click(article).perform()
 time.sleep(15)
 
